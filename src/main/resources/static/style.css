@@ -1,0 +1,186 @@
+body {
+    
+    text-align: center;
+    background-color:white;
+    position: relative;
+}
+/* Estilos para el contenedor principal de la pagina */
+#contenedor-pagina {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    height: 90vh; 
+    background-color: rgba(210, 239, 237, 0.893); 
+    margin:0 auto;
+    padding: 0px;
+    flex-direction:column;
+}
+#contenedor-central {
+    margin-top: 100px; 
+}
+
+#boton-central {
+    background-color: rgba(215, 62, 31, 0.955);
+    color: black;
+    padding: 10px 130px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+#seis-botones {
+    margin-top: 50px;
+}
+/* Estilos para el boton amarillo con imagenes de servicio*/
+.boton-amarillo {
+    background-color: rgba(239, 239, 101, 0.679);
+    color: black;
+    padding: 10px 40px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-image: url('imagenes/servicio.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%; 
+}
+.boton-naranja {
+    background-color: orange;
+    color: black;
+    padding: 10px 60px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-image: url('imagenes/servicio-al-cliente.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+    .boton-azul {
+        background-color: rgba(95, 176, 220, 0.69);
+        color: black;
+      padding: 10px 60px;
+        margin: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        background-image: url('imagenes/catalogar.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto 100%;
+    }
+    .boton-rojo {
+        background-color:rgba(227, 31, 60, 0.875);
+        color: black;
+      padding: 10px 60px;
+        margin: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        background-image: url('imagenes/almacen.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+        
+    }
+    .boton-rosa {
+        background-color:rgba(237, 145, 226, 0.693);
+        color: black;
+      padding: 10px 60px;
+        margin: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        background-image: url('imagenes/produccion.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+        
+    }
+    .boton-verde {
+        background-color: greenyellow;
+        color: black;
+      padding: 10px 60px;
+        margin: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;  
+        background-image: url('imagenes/logistica.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto 100%;
+    }
+
+   
+    .boton-intermedio {
+        background-color: rgba(122, 173, 117, 0.835);
+        color: black;
+        padding: 8px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .icono-izquierdo,
+    .icono-derecho {
+        height: 20px; /* Ajusta la altura deseada para las imágenes */
+        width: auto; /* La anchura se ajustará automáticamente */
+    }
+
+#boton-inferior {
+    margin-top: 20px;
+    padding: 15px 0;
+    background-color: rgba(238, 231, 33, 0.286);
+    color:black;
+    border: none;
+    border-radius: 8px;
+    width: 600px;
+    height: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.imagen {
+    margin-bottom: 2px;
+}
+.texto {
+    font-size: 20px;
+}
+
+#botones-superiores {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+
+}
+
+.boton-hora, .boton-fecha {
+    background-color:aqua;
+    padding: 2px 20px;
+    border:none;
+    border-radius: 5px;
+    font-size: 10px;
+    
+}
